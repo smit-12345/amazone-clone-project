@@ -1,0 +1,32 @@
+Link : http://localhost:8005/getproducts
+Method : get
+For What : get all products
+Body : Empty
+
+Link : http://localhost:8005/getproductsone/:id
+Method : get
+For What : get single product details
+Body : Empty
+
+
+Link : http://localhost:8005/register
+Method : post
+For What : register user
+Body : {
+  "fname":"test",
+  "email":"test@email.com",
+  "mobile":"7656785678",
+  "password":"123456",
+  "cpassword":"123456"
+}
+
+
+Link : http://localhost:8005/login
+Method : post
+For What : login user
+Body : {
+  "email":"test@email.com",
+  "password":"123456"
+}
+
+
